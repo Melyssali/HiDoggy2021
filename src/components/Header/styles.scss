@@ -1,0 +1,48 @@
+.navbar {
+  position: fixed;
+  top:0;
+  width: 100%;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #c5cfd6ad;
+  box-shadow: rgba(158, 158, 158, 0.1) 0px 4px 12px;
+}
+
+.fa-envelope {
+  font-size: 1.5rem;
+  &:hover {
+    font-size: 1.9rem;
+  }
+}
+
+.fa-bars {
+  font-size: 1.1rem;
+}
+
+.fa-user-circle {
+  font-size: 1.5rem;
+  
+}
+
+.fa-plus-circle {
+  font-size: 1.5rem;
+  &:hover {
+    font-size: 1.9rem;
+  }
+
+}
+
+.fa-book-open {
+  font-size: 1.4rem;
+  &:hover {
+    font-size: 1.9rem;
+  }
+
+}
+.changecolor {
+  color: #E8833A;
+  background-color: white;
+  border: none;
+}
+.dropdown-menu {
+  width: 1rem;
+}

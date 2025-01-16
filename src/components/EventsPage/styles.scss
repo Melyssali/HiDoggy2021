@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.pic_size {
+  display: inline-block;
+  width: 15vh;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-bottom: 0.5rem;
+}
+
+.select_center_position {
+  border-radius: 15px;
+  border: 1px solid rgba(128, 128, 128, 0.397);
+  color: rgba(80, 80, 80, 0.938);
+}
+.card_content {
+  min-height:100%;
+  position:relative;
+}
+
+.event__list {
+  &:hover {
+    transform: translateY(20px)
+  }
+  border-radius: 15px;
+  padding: 1.2rem;
+  margin: 1.5rem;
+  margin-left: 3.5rem;
+  margin-right: 2rem;
+  width: 20%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.event__name{
+  margin-left: 1rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #188f7f;
+  font-size: 1.5rem;
+  font-family: 'Pacifico', cursive;;
+}
+.content_card {
+  width: 100%;
+}
+.informations__event {
+  margin-bottom: 1rem;
+}
+.title__event {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.font-size-events {
+  // font-weight: bolder;
+  font-size: 2em;
+  font-family: 'Pacifico', cursive;;
+  margin-bottom: 1rem;
+  // margin-top: 3rem;
+
+}
+.flex_pic_title {
+  display: flex;
+  align-items: center;
+  
+}

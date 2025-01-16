@@ -1,0 +1,26 @@
+.navbar {
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #c5cfd6ad;
+  box-shadow: rgba(158, 158, 158, 0.1) 0px 4px 12px;
+}
+.logo {
+    max-width: 150px;
+}
+
+.color-button {
+    background-color: #1BAE9F;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  width: 100%;
+  margin: auto;
+  padding: 0.5rem;
+  border: 1px solid rgba(80, 145, 20, 0.315);
+  background-color: rgba(123, 255, 0, 0.11);
+  color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}

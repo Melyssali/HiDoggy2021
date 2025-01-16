@@ -1,0 +1,60 @@
+.image-size-test {
+  width: 100%;
+  margin: auto;
+  position: fixed;
+}
+
+.mainDivtest {
+  background-image: url('https://random.dog/ae9e4114-a21b-4d6b-8967-f400f80ca5ae.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: right;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-info-test {
+  /* background-color: transparent; */
+  opacity: 0.7;
+  margin: 10% 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+body-test {
+  /* background-color: tomato; */
+  height: 100%;
+}
+
+.customClass-test {
+  margin-top: 5%;
+}
+
+a-test {
+  color: white;
+}
+
+.aFooter-test {
+  color: springgreen;
+}
+
+.pFooter-test {
+  margin: 5% 0 0 0;
+}
+
+.black {
+  color: black;
+}
+
+.taist {
+  width: 50%;
+}
+
+// .background-video {
+//   justify-content: center;
+//   align-items: center;
+// }

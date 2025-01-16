@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+.homelogged {
+  margin-top: 2rem;
+}
+.homelogged__content{
+  overflow: scroll;
+}
+
+.around__us {
+  margin-top: 5rem
+}
+
+.title__search {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-right: 1.5rem;
+}
+
+.title__main {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-left: 2.5rem;
+}
+
+.search__header__left {
+  margin-left: 7rem;
+  margin-top: 7rem;
+}
+
+.picture__homepage{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 10px;
+  margin-right: 5rem;
+  margin-top: 2rem;
+    &:hover{
+      width: 20%;
+    }
+}
+
+.fa__size {
+  display: inline;
+  color: #1BAE9F;
+  font-size: 3rem;
+    &:hover{
+      font-size: 3.3rem;
+    }
+}
+
+.fa-dog-home{
+  border: 1px solid #C3CFD9;
+  padding: 0.6rem;
+  border-radius: 100%;
+}
+
+.fa-user-home {
+  border: 1px solid #C3CFD9;
+  padding: 0.6rem 0.9rem;
+  border-radius: 100%;
+}
+
+.fa-tree-home {
+  border: 1px solid #C3CFD9;
+  padding: 0.6rem 1.1rem;
+  border-radius: 100%;
+}
+
+.rdv__color {
+  color: #464646;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.profil__color {
+  color: #464646;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.lieux-canins__color {
+  color: #464646;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: -1px;
+}
+
+.event__city {
+  width: auto;
+  padding: 2.5rem;
+  border: 1px solid #C3CFD9;
+  margin-right: 2rem;
+}
+
+.scroll__city__event {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 1rem;
+    overflow: auto;
+    margin-left: 2.7rem;
+}
+
+.title__look-around {
+  display: block;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.title__discover {
+  display: block;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+
+}
+.adoption-img {
+  border-radius: 20px;
+}
+
+.map__picture {
+  display: block;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.list__dog {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 60vh;
+  margin: auto;
+  overflow-y: auto;
+}
+.look__around {
+  width: 40%;
+  height: 60vh;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+.discover {
+  width: 50%;
+  // height: 60vh;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+}
+.dog {
+  margin: 0.5rem;
+}
+.picture__size {
+  border-radius: 100%;
+  margin: 0.5rem;
+  padding: 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
+}
+
+.title-strong {
+  font-weight: bolder;
+  font-size: 1.7em;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+// .border-pic {
+//   border-radius: 15px;
+// }
+
+.hover-search:hover {
+  // background-color: #1aad9e2c;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  
+}
+
+.opacity-construction {
+  opacity: 0.8;
+}
+
+.font-text {
+  font-family: 'Pacifico', cursive;
+}

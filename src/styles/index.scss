@@ -1,0 +1,38 @@
+@use 'reset';
+@use 'vars';
+
+
+
+body{
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding: 0;
+}
+
+
+// .nav-active {
+  
+//   // &::after {
+//   //   content: '';
+//   //   width: 7%;
+//   //   height: 1px;
+//   //   background-color: rgba(52, 176, 214, 0.404);
+//   //   position: absolute;
+//   //   bottom: 15px;
+//   //   left: 58.5%;
+//   //   transform: translate(-58.5%);
+//   // }
+// }
+
+/* 
+  // or you can import your own font
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Regular.ttf');
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+*/
